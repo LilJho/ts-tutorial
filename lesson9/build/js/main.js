@@ -50,3 +50,4 @@ console.log(tsAssign);
 const assignArgs = ["Generics", 120];
 const tsAssign2 = createNewAssign(...assignArgs);
 console.log(tsAssign2);
+// Awaited - helps us with the ReturnType of the promise

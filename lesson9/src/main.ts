@@ -112,3 +112,5 @@ const assignArgs: AssignParams = ["Generics", 120];
 
 const tsAssign2: NewAssign = createNewAssign(...assignArgs);
 console.log(tsAssign2);
+
+// Awaited - helps us with the ReturnType of the promise
