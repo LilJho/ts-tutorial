@@ -1,4 +1,3 @@
-const echo = <T>(arg: T): T => arg;
 
 const isObject = <T>(arg: T): boolean => {
   return typeof arg === "object" && !Array.isArray(arg) && arg !== null;
